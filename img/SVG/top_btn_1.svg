@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+        font-family: Timeless-Normal, Timeless;
+        font-size: 32px;
+      }
+
+      .cls-2 {
+        fill: #f4ebdc;
+      }
+
+      .cls-3 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.12em;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <circle class="cls-2" cx="50" cy="50" r="50"/>
+      <text class="cls-1" transform="translate(25.73 59.72)"><tspan class="cls-4" x="0" y="0">T</tspan><tspan class="cls-3" x="13.95" y="0">o</tspan><tspan x="31.84" y="0">p</tspan></text>
+    </g>
+  </g>
+</svg>
