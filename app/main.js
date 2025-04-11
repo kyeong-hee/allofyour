@@ -1,3 +1,18 @@
+// Header
+window.addEventListener('scroll', ()=>{
+  const header = document.querySelector('header');
+
+  if(window.innerWidth > 1024){
+    if(window.scrollY > 50){
+      header.classList.add('sticky');
+    } else{
+      header.classList.remove('sticky');
+    }
+  } else{
+    header.classList.remove('sticky');
+  }
+});
+
 // BestItem Swiper
 const bestSwiper = new Swiper(".bestSwiper", {
   loop: true,
