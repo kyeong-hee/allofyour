@@ -254,7 +254,7 @@ aside .text {
   margin-bottom: 32px;
 }
 
-.best_i .bestSwiper .best_slide>img {
+.best_i .bestSwiper .best_slide img {
   margin-bottom: 16px;
 }
 
@@ -322,6 +322,10 @@ aside .text {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 48px;
+}
+
+.all_items .item_info{
+  margin-top: 16px;
 }
 
 .all_items .item h3 {
