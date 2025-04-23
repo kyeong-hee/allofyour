@@ -196,7 +196,7 @@ main {
 
 aside {
   width: 100%;
-  height: 500px;
+  height: 450px;
 }
 
 aside .text {
@@ -223,7 +223,7 @@ aside .text {
 }
 
 .text .top_text .text_i {
-  line-height: 24px;
+  line-height: 1.8;
 }
 
 
@@ -254,6 +254,10 @@ aside .text {
   margin-bottom: 32px;
 }
 
+.best_i .bestSwiper .best_slide{
+  margin-bottom: 42px;
+}
+
 .best_i .bestSwiper .best_slide img {
   margin-bottom: 16px;
 }
@@ -270,14 +274,6 @@ aside .text {
   display: flex;
   justify-content: center;
   gap: 8px;
-}
-
-.best_i .line {
-  width: 200px;
-  height: 8px;
-  border-top: 1px solid #333;
-  margin: auto;
-  margin-bottom: 16px;
 }
 
 .best_i .price .original_price {
@@ -448,6 +444,10 @@ footer .footer_i {
   justify-content: space-evenly;
 }
 
+.footer_i .f_info{
+  line-height: 1.8;
+}
+
 .footer_i .f_logo {
   height: 20px;
 }
@@ -477,14 +477,6 @@ footer .footer_i {
 /* 반응형 media query */
 
 @media screen and (max-width: 1200px) {
-  /* .header_i {
-    width: 80%;
-  }
-
-  .header_i .bottom_h {
-    width: 80%;
-  } */
-
   .bestSwiper {
     width: 80%;
   }
@@ -500,7 +492,7 @@ footer .footer_i {
 
   .all_i .all_items {
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 63px 0;
     margin: 0 auto;
     padding: 24px;
   }
