@@ -43,9 +43,9 @@ const bestSwiper = new Swiper(".bestSwiper", {
 });
 
 
-// header scrollevent
+// bootmNav scrollevent
 let lastScrollTop = 0;
-let header = document.querySelector('.bottom_h');
+let bottomNav = document.querySelector('.bottom_nav');
 
 // scroll event
 window.addEventListener('scroll', ()=>{
@@ -53,13 +53,13 @@ window.addEventListener('scroll', ()=>{
 
   if (currentScroll > lastScrollTop){
     // 스크롤 아래로 내렸을 때
-    header.style.opacity = '0';
-    header.style.pointerEvents = 'none';
+    bottomNav.style.opacity = '0';
+    bottomNav.style.pointerEvents = 'none';
   } else{
     // 스크롤 위로 올렸을 때
-    header.style.opacity = '1';
-    header.style.pointerEvents = 'auto';
-    header.style.zIndex = '100';
+    bottomNav.style.opacity = '1';
+    bottomNav.style.pointerEvents = 'auto';
+    bottomNav.style.zIndex = '100';
   }
   lastScrollTop = currentScroll <=0 ? 0: currentScroll;
 });
